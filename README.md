@@ -11,8 +11,8 @@ npm install snowdrift -S
 ### Setup & Usage ###
 ``` javascript
 var snowdrift = require("snowdrift");
-snowdrift.config(<mongodb_connection>, function(){
-    console.log("ready to shorten");
+snowdrift.config(#mongodb_connection_url#, function(){
+    console.log("ready to start shortening");
 });
 ```
 ### Shorten ###
