@@ -19,9 +19,6 @@ snowdrift.config(<mongodb_connection>, function(){
 ``` javascript
 snowdrift.shorten("http://apple.com",function(err, results){
     console(results);
-    /*
-    // { "key": "ortrw","url": "http://apple.com" }
-    /
 });
 ```
 ### Unshorten ###
