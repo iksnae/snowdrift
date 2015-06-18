@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keyword":[ "url",  "shortener",   "mongodb",  "url shorten",  "urlshortener", "shortening","snowdrift"],
   "repository":{
     "type":"git",
     "url":"git@github.com:iksnae/snowdrift.git"
@@ -13,7 +14,6 @@
   "author": "Khalid Mills",
   "license": "GPL",
   "dependencies": {
-    "express": "^4.12.4",
     "mongoose": "^4.0.5"
   }
 }
