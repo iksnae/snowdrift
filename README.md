@@ -17,13 +17,13 @@ snowdrift.config(#mongodb_connection_url#, function(){
 ```
 ### Shorten ###
 ``` javascript
-snowdrift.shorten("http://apple.com",function(err, results){
+snowdrift.shorten("http://apple.com", function(err, results){
     console(results);
 });
 ```
 ### Unshorten ###
 ``` javascript
-snowdrift.shorten("ortrw",function(err, results){
+snowdrift.unshorten("ortrw", function(err, results){
     console(results);
 });
 
@@ -31,5 +31,8 @@ snowdrift.shorten("ortrw",function(err, results){
 ###The Results
 both methods return json containing ```key``` and ```url``` properties
 ```json
- { "key": "ortrw","url": "http://apple.com" }
+ { 
+    "key": "ortrw",
+    "url": "http://apple.com" 
+}
 ```
