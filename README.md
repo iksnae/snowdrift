@@ -23,7 +23,7 @@ snowdrift.config(#mongodb_connection_url#, function(){
 store url and generate a unique key
 ``` javascript
 snowdrift.shorten("http://apple.com", function(err, results){
-    console(results);
+    console.log(results);
 });
 ```
 
@@ -32,7 +32,7 @@ snowdrift.shorten("http://apple.com", function(err, results){
 retrieve url for unique key
 ``` javascript
 snowdrift.unshorten("ortrw", function(err, results){
-    console(results);
+    console.log(results);
 });
 
 ```

@@ -1,19 +1,28 @@
 {
   "name": "snowdrift",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a very simple url shortener",
   "main": "snowdrift.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keyword":[ "url",  "shortener",   "mongodb",  "url shorten",  "urlshortener", "shortening","snowdrift"],
-  "repository":{
-    "type":"git",
-    "url":"git@github.com:iksnae/snowdrift.git"
+  "keyword": [
+    "url",
+    "shortener",
+    "mongodb",
+    "url shorten",
+    "urlshortener",
+    "shortening",
+    "snowdrift"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iksnae/snowdrift.git"
   },
   "author": "Khalid Mills",
   "license": "GPL",
   "dependencies": {
-    "mongoose": "^4.0.5"
+    "mongoose": "^4.0.5",
+    "shortid": "^2.2.2"
   }
 }
