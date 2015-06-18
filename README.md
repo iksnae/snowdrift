@@ -15,14 +15,18 @@ snowdrift.config(#mongodb_connection_url#, function(){
     console.log("ready to start shortening");
 });
 ```
+
 ### Shorten ###
+
 store url and generate a unique key
 ``` javascript
 snowdrift.shorten("http://apple.com", function(err, results){
     console(results);
 });
 ```
+
 ### Unshorten ###
+
 retrieve url for unique key
 ``` javascript
 snowdrift.unshorten("ortrw", function(err, results){
@@ -30,7 +34,9 @@ snowdrift.unshorten("ortrw", function(err, results){
 });
 
 ```
+
 ###The Results
+
 both methods return json containing ```key``` and ```url``` properties
 ```json
  { 
