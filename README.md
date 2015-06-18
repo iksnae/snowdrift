@@ -3,7 +3,8 @@
 ![Alt text](http://1.bp.blogspot.com/_10RbzQXx0c4/TCpvQlNCMmI/AAAAAAAAB-E/yJTzBCmMYQM/s1600/snowdrift+shortening.jpg)
 
 This is a very simple url shortener.
-URLs stored in MongoDB.
+
+Stores URLs in MongoDB.
 
 ### Installation ###
 ```
