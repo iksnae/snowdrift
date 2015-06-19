@@ -33,7 +33,7 @@ var shorten = exports.shorten = function(original_url, callback){
 }
 
 function generateNewUID(callback) {
-  var key = shortid.generat();
+  var key = shortid.generate();
   ShortURL.findWithKey(key, function(err, results){
     if(results){
       // key alreay in use.. try again
